@@ -4,7 +4,7 @@
 
 * Photo illustrant la sécurité routière + texte de présentation du site
 * Bloc avec liste de 5 panneaux + description et lien vers catégorie de panneaux
-* Un espace pour la présentation de news relatives à la sécurité routière dans l’arrondissement devra être disponible. Ces news seront illustrées par une photo ou vidéo et quelques lignes de texte.
+* Un espace pour la présentation de news relatives à la sécurité routière dans l’arrondissement devra être disponible. Ces news sont illustrées par une photo ou vidéo et quelques lignes de texte.
 * 3 blocs présentant des dangers routiers avec lien vers la page concernée.
 
 ### Pages panneaux
