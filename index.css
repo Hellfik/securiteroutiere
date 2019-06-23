@@ -1115,7 +1115,7 @@
         
         .panneaux__content {
             width: 250px;
-            height: 350px;
+            height: 380px;
             border: 2px solid #F9DC1D;
             border-top-right-radius: 10px;
             border-bottom-left-radius: 10px;
@@ -1196,7 +1196,6 @@
             /*SECTION ARTICLE*/
             .actualite img {
                 margin-left: 60px;
-                height: auto;
                 width: 300px;
             }
         }
@@ -1434,6 +1433,12 @@
             .formulaire {
                 width: 100%;
                 margin: 10px;
+            }
+            /*---------------------*\
+                PAGES PANNEAUX
+            \*---------------------*/
+            .panneaux_intro {
+                margin: 20px;
             }
         }
         
