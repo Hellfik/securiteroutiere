@@ -122,17 +122,23 @@
             margin-right: 20px;
         }
         
+        .menu-dropdown {
+            position: relative;
+        }
+        
         .dropdown {
-            position: fixed;
+            position: absolute;
             background-color: white;
             box-shadow: 0px 5px 10px black;
-            top: 50px;
+            /* top: 50px; */
             z-index: 999;
             display: none;
             padding: 10px;
             font-size: 0.8em;
-            width: 300px;
+            width: 250px;
             transition: 0.3s;
+            text-align: center;
+            margin-left: -90px;
         }
         
         .dropdown li {
@@ -144,9 +150,13 @@
         }
         
         .second_dropdown {
-            margin-left: 30px;
             padding-top: 10px;
             display: none;
+            position: relative;
+        }
+        
+        .second:hover .second_dropdown {
+            display: block;
         }
         /*-------SECTION ACCUEIL------*/
         
@@ -842,7 +852,7 @@
             padding-left: 10px;
             display: flex;
             align-items: center;
-            margin-left: -114px;
+            margin-left: -118px;
         }
         
         .side_nav div:hover {
@@ -1240,7 +1250,7 @@
                 background-color: #262626;
             }
             #menu .fas {
-                display: none;
+                color: white;
             }
             #menu li a {
                 color: white;
@@ -1255,6 +1265,10 @@
             #nav_btn:checked+#menu {
                 display: block;
             }
+            .menu-dropdown:hover .dropdown {
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
             .dropdown {
                 background-color: #000;
                 position: relative;
@@ -1262,6 +1276,10 @@
                 box-shadow: none;
                 top: 0;
                 padding: 0;
+                margin: 0;
+            }
+            .hide_responsive {
+                display: none;
             }
             .dropdown .li {
                 padding: 0;
@@ -1425,6 +1443,7 @@
             height: 500px;
             background-color: #ccc;
             transition: .5s;
+            margin-top: 50px;
         }
         
         #dangers_boxes .box .thumb {
