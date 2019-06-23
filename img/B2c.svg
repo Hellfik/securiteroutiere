@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="576px" height="576px" viewBox="-0.943 -0.943 576 576" enable-background="new -0.943 -0.943 576 576"
+	 xml:space="preserve">
+<defs>
+</defs>
+<circle fill="#FFFFFF" stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="287.057" cy="287.057" r="286.969"/>
+<circle fill="#EA190E" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="287.057" cy="287.057" r="273.982"/>
+<path fill="#FFFFFF" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" d="M417.433,428.6
+	c-72.261,66.561-183.057,68.002-257.025,3.345c-73.968-64.657-87.356-174.651-31.057-255.164l282.715,247.128L417.433,428.6z"/>
+<path fill="#FFFFFF" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" d="M444.894,397.147
+	c56.203-80.579,42.686-190.557-31.359-255.127c-74.045-64.569-184.839-62.997-257.021,3.649l283.008,246.793L444.894,397.147z"/>
+<path stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" d="M210.692,192.308
+	c20.057-33.975,60.366-50.33,98.426-39.934c38.059,10.396,64.457,44.972,64.457,84.425v97.548l-36.462-31.796v-65.752
+	c0-24.303-17.131-45.237-40.953-50.046c-23.822-4.809-47.732,7.84-57.16,30.24L210.692,192.308z"/>
+<polygon stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" points="178.682,326.844 
+	215.1,362.076 254.299,327.003 235.009,327.988 235.009,269.318 198.547,237.489 198.547,326.75 193.365,326.431 "/>
+<polygon stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" points="373.453,390.171 
+	373.453,418.271 337.275,418.271 337.113,358.449 "/>
+</svg>

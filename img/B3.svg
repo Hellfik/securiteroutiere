@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="576px" height="576px" viewBox="-0.943 -0.943 576 576" enable-background="new -0.943 -0.943 576 576"
+	 xml:space="preserve">
+<defs>
+</defs>
+<circle fill="#FFFFFF" stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="287.057" cy="287.057" r="286.969"/>
+<circle fill="#EA190E" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="287.057" cy="287.057" r="274.775"/>
+<circle fill="#FFFFFF" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="287.057" cy="287.057" r="192.438"/>
+<polygon fill="#EA190E" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" points="
+	176.168,249.358 248.015,249.358 261.772,261.637 267.505,281.731 277.059,291.219 277.823,317.453 267.123,326.941 
+	267.123,349.267 253.747,349.267 253.747,327.499 171.201,327.499 171.201,349.267 157.061,349.267 157.061,327.499 
+	147.889,318.011 147.889,291.219 157.825,282.289 163.175,261.637 "/>
+<polygon stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" points="335.067,249.358 
+	406.913,249.358 420.67,261.637 426.403,281.731 435.957,291.219 436.721,317.453 426.021,326.941 426.021,349.267 412.645,349.267 
+	412.645,327.499 330.099,327.499 330.099,349.267 315.958,349.267 315.958,327.499 306.787,318.011 306.787,291.219 
+	316.723,282.289 322.074,261.637 "/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" points="
+	333.156,258.289 409.97,257.73 414.938,282.847 327.042,282.847 "/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="326.996" cy="305.781" r="6.479"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="416.222" cy="305.781" r="6.399"/>
+<circle fill="#FFFFFF" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="257.324" cy="305.781" r="6.399"/>
+<circle fill="#FFFFFF" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" cx="168.097" cy="305.781" r="6.479"/>
+<polygon fill="#FFFFFF" stroke="#FF0000" stroke-width="0.1764" stroke-linecap="round" stroke-linejoin="round" points="
+	174.258,258.289 251.072,257.73 256.04,282.847 168.143,282.847 "/>
+</svg>
