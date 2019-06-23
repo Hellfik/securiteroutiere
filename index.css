@@ -330,8 +330,9 @@
             margin: 0 0 10px;
             padding: 0;
             font-size: 24px;
-            font-weight: 500;
-            color: #fff;
+            font-weight: 800;
+            color: rgb(0, 0, 0);
+            text-shadow: 0px 5px 10px #F9DC1D;
         }
         
         .panneau .panneau_description p {
@@ -1099,9 +1100,10 @@
             box-shadow: 0px 3px 15px #262626;
         }
         
-        .panneaux_intro .panneaux_intro h2 {
+        .panneaux_intro h2 {
             transform: skewX(-20deg);
             background-color: #F9DC1D;
+            text-shadow: 0px 5px 10px #000;
         }
         
         .panneaux_container {
