@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    background-image: url(../images/luke-stackpoole-578017-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 1.2em;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    font-family: "Montserrat";
+    z-index: 9999999;
+}
+
+a.bandeau {
+    color: black;
+    text-decoration: none;
+}
+
+a.bandeau:hover {
+    color: gray;
+    border-top: solid 5px;
+    border-top-color: #f5ee29;
+    ;
+
+}
+
+.imagepermis {
+    width: 100%;
+    height: auto;
+}
+
+.imagepermis {
+    padding-top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtre {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text_header {
+    position: absolute;
+}
+
+.text_header h1 {
+    background: none;
+    text-shadow: 4px 4px 10px yellow;
+    font-size: 2.5em;
+    z-index: 99;
+    color: black;
+    font-weight: 15px;
+}
+
+.notrelogo {
+    width: 106px;
+    height: 78px;
+    margin-left: 100px;
+}
+
+.bandeau {
+    list-style: none;
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+    font-weight: bolder;
+    padding: 0px 20px
+}
+
+
+.panneaux {
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    padding: 0;
+    background-color: white;
+    border: solid;
+    border-width: thin;
+    box-shadow: 5px 5px 10px grey;
+    border-color: gray;
+    position: absolute;
+    visibility: hidden;
+    top: 30px;
+    left: 0;
+}
+
+.panneaux li {
+    padding: 0
+}
+
+.menu-deroulant {
+    position: relative;
+}
+
+.menu-deroulant:hover .panneaux {
+    visibility: visible;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.menu_sandwich {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    top: 25px;
+    display: none;
+}
+
+.sandwich {
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.sandwich span {
+    display: block;
+    width: 100%;
+    height: 10px;
+    border-top: 3px solid black;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.wobble:hover {
+    -webkit-animation-name: wobble;
+    animation-name: wobble;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes wobble {
+    0% {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    15% {
+        -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+
+    30% {
+        -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+
+    45% {
+        -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+
+    75% {
+        -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes wobble {
+    0% {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    15% {
+        -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+
+    30% {
+        -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+
+    45% {
+        -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+
+    75% {
+        -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+h2 {
+    color: black;
+    border: solid;
+    background-color: rgba(236, 207, 39, 0.6);
+    box-shadow: 5px 5px 5px black;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2:hover {
+    background-color: #EECD00;
+}
+
+#avantages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#corps {
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+
+
+}
+
+p:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.savoir {
+    color: blue;
+}
+
+.savoir:hover {
+    font-size: 1.4em;
+    background-color: orangered;
+}
+
+#toutsavoir {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+#toutsavoir:hover {
+    font-size: 1.8em;
+    background-color: orangered;
+}
+
+.puce {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.A {
+    font-weight: lighter;
+    display: flex;
+}
+
+.A_text {
+    width: 500px;
+}
+
+.catA {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*.catA_descrip {*/
+/* width: 70%; */
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#euro {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+.ici_code:hover {
+    background-color: white;
+}
+
+.mes_points {
+    height: auto;
+}
+
+.mes_points:hover {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+    font-size: 1.1em;
+    margin-top: 50px
+}
+
+#textfooter {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+#logofooter {
+    font-size: 35px;
+}
+
+.contact {
+    display: block;
+}
+
+a.footer {
+    color: white;
+}
+
+#nouscontacter {
+    display: block;
+}
+
+#info {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+
+@media screen and (max-width:1218px) {
+    .notrelogo {
+        margin-left: 50px;
+    }
+
+    #connexion {
+        font-size: 0.8em;
+    }
+
+    .bandeau li {
+        padding: 5px;
+
+    }
+
+    .bandeau li a {
+        font-size: 0.8em;
+    }
+
+    .logoeuro {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    .text_header h1 {
+        font-size: 1.8em;
+    }
+
+    .ici_code {
+        width: 400px;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    #toutsavoir {
+        font-size: 1.1em;
+    }
+
+    #toutsavoir:hover {
+        font-size: 1.4em;
+    }
+
+
+}
+
+@media screen and (max-width:805px) {
+    .notrelogo {
+        margin-left: 20px;
+    }
+
+    .bandeau li {
+        padding: 2px;
+    }
+
+    h1 {
+        font-size: 1.1em;
+    }
+
+    .text_header h1 {
+        font-size: 1.3em;
+    }
+
+    .mes_points {
+        height: 180px;
+        width: 175px;
+    }
+
+    .ici_code {
+        width: 250px;
+        height: 80px;
+    }
+
+    img.displayed {
+        width: 570px;
+    }
+
+    #toutsavoir {
+        font-size: 1em;
+    }
+
+    #toutsavoir:hover {
+        font-size: 1.2em;
+    }
+    .logoeuro {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:718px) {
+    .notrelogo {
+        margin-left: 10px;
+    }
+
+    #connexion {
+        font-size: 0.7em;
+    }
+
+    .bandeau li {
+        font-size: 0.7em;
+    }
+
+    .menu_sandwich {
+        display: block;
+    }
+
+    .bandeau {
+        display: none;
+    }
+
+    .notrelogo {
+        display: none;
+    }
+
+    h1 {
+        font-size: 0.9em;
+    }
+
+    .text_header h1 {
+        font-size: 1em;
+    }
+
+    .mes_points {
+        height: 120px;
+        width: 125px;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    img.displayed {
+        width: 515px;
+    }
+
+}
