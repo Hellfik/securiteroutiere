@@ -67,7 +67,7 @@ a.bandeau:hover {
     font-size: 2.5em;
     z-index: 99;
     color: black;
-    font-weight: 15px;
+    font-weight: 600;
 }
 
 .notrelogo {
@@ -318,30 +318,33 @@ p:hover {
 
 /* width: 70%; */
 
-
-}
 #photo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 #euro {
     display: flex;
     flex-direction: row;
-    align-items: space-between;
+    align-items: center;
     justify-content: space-around;
     font-size: 35px;
 }
+
 .ici_code:hover {
     background-color: white;
 }
+
 .mes_points {
     height: auto;
 }
+
 .mes_points:hover {
     background-color: white;
 }
+
 footer {
     background-color: black;
     color: white;
@@ -349,171 +352,150 @@ footer {
     font-size: 1.1em;
     margin-top: 50px
 }
+
 #textfooter {
     display: flex;
     flex-direction: row;
     align-content: space-around;
     justify-content: space-around;
 }
+
 #logofooter {
     font-size: 35px;
 }
+
 .contact {
     display: block;
 }
+
 a.footer {
     color: white;
 }
+
 #nouscontacter {
     display: block;
 }
+
 #info {
     text-align: center;
 }
+
 a {
     color: black;
 }
+
 @media screen and (max-width:1218px) {
     .notrelogo {
         margin-left: 50px;
     }
-    
     #connexion {
         font-size: 0.8em;
     }
-    
     .bandeau li {
         padding: 5px;
     }
-    
     .bandeau li a {
         font-size: 0.8em;
     }
-    
     .logoeuro {
         width: 100px;
         height: 100px;
     }
-    
     h1 {
         font-size: 1.3em;
     }
-    
     .text_header h1 {
         font-size: 1.8em;
     }
-    
     .ici_code {
         width: 400px;
         height: 150px;
     }
-    
     h2 {
         font-size: 1.2em;
     }
-    
     p {
         font-size: 1em;
     }
-    
     #toutsavoir {
         font-size: 1.1em;
     }
-    
     #toutsavoir:hover {
         font-size: 1.4em;
     }
 }
+
 @media screen and (max-width:805px) {
     .notrelogo {
         margin-left: 20px;
     }
-    
     .bandeau li {
         padding: 2px;
     }
-    
     h1 {
         font-size: 1.1em;
     }
-    
     .text_header h1 {
         font-size: 1.3em;
     }
-    
     .mes_points {
         height: 180px;
         width: 175px;
     }
-    
     .ici_code {
         width: 250px;
         height: 80px;
     }
-    
     img.displayed {
         width: 570px;
     }
-    
     #toutsavoir {
         font-size: 1em;
     }
-    
     #toutsavoir:hover {
         font-size: 1.2em;
     }
-    
     .logoeuro {
         width: 80px;
         height: 80px;
     }
 }
+
 @media screen and (max-width:718px) {
     .notrelogo {
         margin-left: 10px;
     }
-    
     #connexion {
         font-size: 0.7em;
     }
-    
     .bandeau li {
         font-size: 0.7em;
     }
-    
     .menu_sandwich {
         display: block;
     }
-    
     .bandeau {
         display: none;
     }
-    
     .notrelogo {
         display: none;
     }
-    
     h1 {
         font-size: 0.9em;
     }
-    
     .text_header h1 {
         font-size: 1em;
     }
-    
     .mes_points {
         height: 120px;
         width: 125px;
     }
-    
     h2 {
         font-size: 0.9em;
     }
-    
     p {
         font-size: 0.8em;
     }
-    
     img.displayed {
         width: 515px;
     }
