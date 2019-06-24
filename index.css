@@ -1162,6 +1162,23 @@
             font-size: 1.8em;
             background-color: orangered;
         }
+        /*-------------------PAGE CONDUITE ACCOMPAGNEE---------------*/
+        
+        .conduite_content {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .displayed {
+            height: auto;
+            width: 50%;
+        }
+        
+        .conduite_content h2 {
+            background-color: #F9DC1D;
+            box-shadow: 0px 5px 10px black;
+            margin: 10px;
+        }
         /*-------------------PAGE DE PANNEAUX------------------*/
         
         .groupement_panneaux {
@@ -1523,6 +1540,15 @@
             \*---------------------*/
             .A_text {
                 width: 300px;
+            }
+            /*---------------------*\
+            PAGE CONDUITE ACCOMPAGNEE
+            \*---------------------*/
+            .wobble {
+                font-size: 2em;
+            }
+            .displayed {
+                width: 100%;
             }
         }
         
