@@ -1561,6 +1561,12 @@
                 font-size: 1.5em;
                 margin: 10px;
             }
+            .login {
+                margin: 10px;
+            }
+            .danger_au_volant aside {
+                width: 350px;
+            }
         }
         /*-------------------TEST---------------------*/
         
