@@ -182,11 +182,15 @@
             animation: 1s ease-out 0s 1 slideInFromRight;
         }
         
-        .bloc_title h1,
+        .bloc_title h2,
         .bloc_title p {
             text-shadow: 3px 3px 10px rgb(0, 0, 0);
             color: #F5EE29;
             font-weight: 800;
+        }
+        
+        .bloc_title h2 {
+            font-size: 3em;
         }
         
         @keyframes slideInFromRight {
@@ -310,7 +314,7 @@
             z-index: 2
         }
         
-        .panneau_description h1 {
+        .panneau_description h2 {
             position: absolute;
             top: 0px;
             right: 20px;
@@ -1422,7 +1426,7 @@
             #bloc_accueil .bloc_title {
                 top: 10%;
             }
-            .bloc_title h1 {
+            .bloc_title h2 {
                 font-size: 2.0em;
                 margin: 20px 0;
                 color: black;
