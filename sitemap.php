@@ -18,7 +18,7 @@
     <header>
         <div id="logo">
             <img src="img/securiteroutiere.png" alt="logo du site">
-            <h1><a href="connexion.html"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
+            <h1><a href="connexion.php"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
         </div>
         <nav>
             <div class="menu_hamburger">
@@ -30,34 +30,34 @@
             </div>
             <input type="checkbox" id="nav_btn">
             <ul id="menu">
-                <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="index.php"><i class="fas fa-home"></i>Accueil</a></li>
                 <li class="menu-dropdown"><a href="">Panneaux <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown">
                         <li>
-                            <a href="panneaux_dangers.html"><i class="fas fa-angle-double-right"></i> Type A</a>
+                            <a href="panneaux_dangers.php"><i class="fas fa-angle-double-right"></i> Type A</a>
                         </li>
                         <li>
-                            <a href="panneaux_priorite.html"><i class="fas fa-angle-double-right"></i> Type AB</a>
+                            <a href="panneaux_priorite.php"><i class="fas fa-angle-double-right"></i> Type AB</a>
                         </li>
                         <li class="second">
                             <a href=""><i class="fas fa-angle-double-right"></i> Type B <i class="fas fa-caret-down"></i></a>
                             <ul class="second_dropdown">
-                                <li><a href="panneaux_interdiction.html"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
-                                <li><a href="panneaux_obligation.html"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
-                                <li><a href="panneaux_finPrescription.html"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
+                                <li><a href="panneaux_interdiction.php"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
+                                <li><a href="panneaux_obligation.php"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
+                                <li><a href="panneaux_finPrescription.php"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="panneaux_indications.html"><i class="fas fa-angle-double-right"></i> Type C</a>
+                            <a href="panneaux_indications.php"><i class="fas fa-angle-double-right"></i> Type C</a>
                         </li>
                         <li>
-                            <a href="panneaux_services.html"><i class="fas fa-angle-double-right"></i> Type CE</a>
+                            <a href="panneaux_services.php"><i class="fas fa-angle-double-right"></i> Type CE</a>
                         </li>
                         <li>
-                            <a href="panneaux_direction.html"><i class="fas fa-angle-double-right"></i> Type D</a>
+                            <a href="panneaux_direction.php"><i class="fas fa-angle-double-right"></i> Type D</a>
                         </li>
                         <li>
-                            <a href="panneaux_jalonnement.html"><i class="fas fa-angle-double-right"></i> Type Dp</a>
+                            <a href="panneaux_jalonnement.php"><i class="fas fa-angle-double-right"></i> Type Dp</a>
                         </li>
                         <li>
                             <a href=""><i class="fas fa-angle-double-right"></i> Type Dv</a>
@@ -112,27 +112,27 @@
                 <li class="menu-dropdown"><a href="">Permis <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown">
                         <li>
-                            <a href="page_type_de_permis.html"><i class="fas fa-angle-double-right"></i> Type de permis</a>
+                            <a href="page_type_de_permis.php"><i class="fas fa-angle-double-right"></i> Type de permis</a>
                         </li>
                         <li>
-                            <a href="page_permis1e.html"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
+                            <a href="page_permis1e.php"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
                         </li>
                         <li>
-                            <a href="page_conduiteAccompagne.html"><i class="fas fa-angle-double-right"></i> Conduite Accompagnée</a>
+                            <a href="page_conduiteAccompagne.php"><i class="fas fa-angle-double-right"></i> Conduite Accompagnée</a>
                         </li>
                         <li>
-                            <a href="permis_a_points.html"><i class="fas fa-angle-double-right"></i> Permis à points</a>
+                            <a href="permis_a_points.php"><i class="fas fa-angle-double-right"></i> Permis à points</a>
                         </li>
                     </ul>
                 </li>
-                <li><a href="dangers.html">Dangers</a></li>
-                <li><a href="autoecole.html">Auto-école</a></li>
-                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="dangers.php">Dangers</a></li>
+                <li><a href="autoecole.php">Auto-école</a></li>
+                <li><a href="contacts.php">Contact</a></li>
             </ul>
 
         </nav>
         <div id="connexion">
-            <p><a href="connexion.html"><i class="fas fa-user"></i>Connexion</a></p>
+            <p><a href="connexion.php"><i class="fas fa-user"></i>Connexion</a></p>
         </div>
     </header>
 
@@ -146,36 +146,36 @@
                 <h2>SITE MAP</h2>
                 <ul>
                     <li>
-                        <a href="index.html">Accueil</a>
+                        <a href="index.php">Accueil</a>
                     </li>
                     <li>
                         Panneaux
                         <ul>
                             <li>
-                                <a href="panneaux_dangers.html">Type A</a>
+                                <a href="panneaux_dangers.php">Type A</a>
                             </li>
                             <li>
-                                <a href="panneaux_priorite.html">Type AB</a>
+                                <a href="panneaux_priorite.php">Type AB</a>
                             </li>
                             <li>
                                 <a href="#">Type B</a>
                                 <ul>
-                                    <li><a href="panneaux_interdiction.html">Panneaux d'interdiction</a></li>
-                                    <li><a href="panneaux_obligation.html">Panneaux d'obligation</a></li>
-                                    <li><a href="panneaux_finPrescription.html">Panneaux de fin de prescription</a></li>
+                                    <li><a href="panneaux_interdiction.php">Panneaux d'interdiction</a></li>
+                                    <li><a href="panneaux_obligation.php">Panneaux d'obligation</a></li>
+                                    <li><a href="panneaux_finPrescription.php">Panneaux de fin de prescription</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="panneaux_indications.html">Type C</a>
+                                <a href="panneaux_indications.php">Type C</a>
                             </li>
                             <li>
-                                <a href="panneaux_services.html">Type CE</a>
+                                <a href="panneaux_services.php">Type CE</a>
                             </li>
                             <li>
-                                <a href="panneaux_direction.html">Type D</a>
+                                <a href="panneaux_direction.php">Type D</a>
                             </li>
                             <li>
-                                <a href="panneaux_jalonnement.html">Type Dp</a>
+                                <a href="panneaux_jalonnement.php">Type Dp</a>
                             </li>
                             <li>
                                 <a href="">Type Dv</a>
@@ -229,34 +229,34 @@
                         <a href="">Permis</a>
                         <ul>
                             <li>
-                                <a href="page_type_de_permis.html">Type de permis</a></li>
-                            <li><a href="page_permis1e.html">Permis à un 1 euro</a></li>
-                            <li><a href="page_conduiteAccompagne.html">Conduite accompagnée</a></li>
+                                <a href="page_type_de_permis.php">Type de permis</a></li>
+                            <li><a href="page_permis1e.php">Permis à un 1 euro</a></li>
+                            <li><a href="page_conduiteAccompagne.php">Conduite accompagnée</a></li>
                             <li>
-                                <a href="permis_a_points.html">Permis à points</a>
+                                <a href="permis_a_points.php">Permis à points</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="dangers.html">Dangers</a>
+                        <a href="dangers.php">Dangers</a>
                     </li>
                     <li>
-                        <a href="autoecole.html">Auto-école</a>
+                        <a href="autoecole.php">Auto-école</a>
                         <ul>
-                            <li><a href="autoecole.html#etaples">Etaples sur mer</a></li>
-                            <li><a href="autoecole.html#montreuil">Montreuil</a></li>
-                            <li><a href="autoecole.html#hesdin">Hesdin</a></li>
-                            <li><a href="autoecole.html#berck">Berck sur mer</a></li>
+                            <li><a href="autoecole.php#etaples">Etaples sur mer</a></li>
+                            <li><a href="autoecole.php#montreuil">Montreuil</a></li>
+                            <li><a href="autoecole.php#hesdin">Hesdin</a></li>
+                            <li><a href="autoecole.php#berck">Berck sur mer</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="contacts.html">Contact</a>
+                        <a href="contacts.php">Contact</a>
                     </li>
                     <li>
-                        <a href="connexion.html">Connexion</a>
+                        <a href="connexion.php">Connexion</a>
                     </li>
                     <li>
-                        <a href="confidentialite.html">Mentions Légales</a>
+                        <a href="confidentialite.php">Mentions Légales</a>
                     </li>
                     <li>
                         <a href="#">Site map</a>
@@ -300,7 +300,7 @@
                     <a href="#">Site map</a>
                 </li>
                 <li>
-                    <a href="confidentialite.html">Mentions légales</a>
+                    <a href="confidentialite.php">Mentions légales</a>
                 </li>
             </ul>
         </div>

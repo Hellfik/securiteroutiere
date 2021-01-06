@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Site code de la route">
     <meta name="keywords" content="code la route, sécurité routière, panneaux de signalisation, permis">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <title>Préventiv'auto - Contact</title>
+    <title>Préventiv'auto - Connexion</title>
 </head>
 
 <body id="page">
@@ -17,46 +18,46 @@
     <header>
         <div id="logo">
             <img src="img/securiteroutiere.png" alt="logo du site">
-            <h1><a href="connexion.html"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
+            <h1><a href="#"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
         </div>
         <nav>
             <div class="menu_hamburger">
                 <label for="nav_btn" class="nav_btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
             </div>
             <input type="checkbox" id="nav_btn">
             <ul id="menu">
-                <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="index.php"><i class="fas fa-home"></i>Accueil</a></li>
                 <li class="menu-dropdown"><a href="">Panneaux <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown">
                         <li>
-                            <a href="panneaux_dangers.html"><i class="fas fa-angle-double-right"></i> Type A</a>
+                            <a href="panneaux_dangers.php"><i class="fas fa-angle-double-right"></i> Type A</a>
                         </li>
                         <li>
-                            <a href="panneaux_priorite.html"><i class="fas fa-angle-double-right"></i> Type AB</a>
+                            <a href="panneaux_priorite.php"><i class="fas fa-angle-double-right"></i> Type AB</a>
                         </li>
                         <li class="second">
                             <a href=""><i class="fas fa-angle-double-right"></i> Type B <i class="fas fa-caret-down"></i></a>
                             <ul class="second_dropdown">
-                                <li><a href="panneaux_interdiction.html"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
-                                <li><a href="panneaux_obligation.html"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
-                                <li><a href="panneaux_finPrescription.html"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
+                                <li><a href="panneaux_interdiction.php"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
+                                <li><a href="panneaux_obligation.php"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
+                                <li><a href="panneaux_finPrescription.php"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="panneaux_indications.html"><i class="fas fa-angle-double-right"></i> Type C</a>
+                            <a href="panneaux_indications.php"><i class="fas fa-angle-double-right"></i> Type C</a>
                         </li>
                         <li>
-                            <a href="panneaux_services.html"><i class="fas fa-angle-double-right"></i> Type CE</a>
+                            <a href="panneaux_services.php"><i class="fas fa-angle-double-right"></i> Type CE</a>
                         </li>
                         <li>
-                            <a href="panneaux_direction.html"><i class="fas fa-angle-double-right"></i> Type D</a>
+                            <a href="panneaux_direction.php"><i class="fas fa-angle-double-right"></i> Type D</a>
                         </li>
                         <li>
-                            <a href="panneaux_jalonnement.html"><i class="fas fa-angle-double-right"></i> Type Dp</a>
+                            <a href="panneaux_jalonnement.php"><i class="fas fa-angle-double-right"></i> Type Dp</a>
                         </li>
                         <li>
                             <a href=""><i class="fas fa-angle-double-right"></i> Type Dv</a>
@@ -111,53 +112,80 @@
                 <li class="menu-dropdown"><a href="">Permis <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown">
                         <li>
-                            <a href="page_type_de_permis.html"><i class="fas fa-angle-double-right"></i> Type de permis</a>
+                            <a href="page_type_de_permis.php"><i class="fas fa-angle-double-right"></i> Type de permis</a>
                         </li>
                         <li>
-                            <a href="page_permis1e.html"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
+                            <a href="page_permis1e.php"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
                         </li>
                         <li>
-                            <a href="page_conduiteAccompagne.html"><i class="fas fa-angle-double-right"></i> Conduite Accompagnée</a>
+                            <a href="page_conduiteAccompagne.php"><i class="fas fa-angle-double-right"></i> Conduite Accompagnée</a>
                         </li>
                         <li>
-                            <a href="permis_a_points.html"><i class="fas fa-angle-double-right"></i> Permis à points</a>
+                            <a href="permis_a_points.php"><i class="fas fa-angle-double-right"></i> Permis à points</a>
                         </li>
                     </ul>
                 </li>
-                <li><a href="dangers.html">Dangers</a></li>
-                <li><a href="autoecole.html">Auto-école</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="dangers.php">Dangers</a></li>
+                <li><a href="autoecole.php">Auto-école</a></li>
+                <li><a href="contacts.php">Contact</a></li>
             </ul>
 
         </nav>
         <div id="connexion">
-            <p><a href="connexion.html"><i class="fas fa-user"></i>Connexion</a></p>
+            <p><a href="#"><i class="fas fa-user"></i>Connexion</a></p>
         </div>
     </header>
 
-    <section class="bloc_contact">
-        <div class="iframe">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.022595877992!2d1.6412495156499234!3d50.51514637948435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddd011934d105f%3A0x973e4516a605871!2sAifor!5e0!3m2!1ssv!2sfr!4v1558600315942!5m2!1ssv!2sfr"
-                style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="formulaire">
-            <h2>
-                <i class="far fa-envelope"></i> N'hesitez pas à nous contacter
-            </h2>
-
-            <form action="#">
-                <p><input type="text" id="name" name="name" placeholder="Nom"></p>
-
-
-                <p><input type="text" id="first_name" name="first_name" placeholder="Prénom"></p>
-
-
-                <p><input type="email" id="email" name="email" placeholder="Email"></p>
-
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-
-                <input type="submit" value="Envoyer">
-            </form>
+    <section class="login_page">
+        <div class="login">
+            <div class="main_icon">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="login_form">
+                <form action="#" method="post">
+                    <div class="login_input">
+                        <i class="fas fa-user"></i>
+                        <input type="email" placeholder="Adresse Mail" required>
+                    </div>
+                    <div class="login_input">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Mot de passe" required>
+                    </div>
+                    <div class="login_check">
+                        <label for="checkbox" class="checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox" checked>
+                            Se souvenir de moi
+                        </label>
+                    </div>
+                    <div class="bottom">
+                        <input type="submit" value="Se connecter">
+                    </div>
+                    <div class="links">
+                        <p><a href="#">Mot de passe oublié</a></p>
+                        <p class="right"><a href="#">S'inscrire</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="reseaux_sociaux">
+                <ul>
+                    <li>Ou se connecter avec :</li>
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="google_plus">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <footer>
@@ -192,10 +220,10 @@
             <h3>Autres informations</h3>
             <ul>
                 <li>
-                    <a href="sitemap.html">Site map</a>
+                    <a href="sitemap.php">Site map</a>
                 </li>
                 <li>
-                    <a href="confidentialite.html">Mentions légales</a>
+                    <a href="confidentialite.php">Mentions légales</a>
                 </li>
             </ul>
         </div>

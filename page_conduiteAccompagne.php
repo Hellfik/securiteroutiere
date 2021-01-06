@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -17,7 +18,7 @@
     <header>
         <div id="logo">
             <img src="img/securiteroutiere.png" alt="logo du site">
-            <h1><a href="connexion.html"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
+            <h1><a href="connexion.php"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
         </div>
         <nav>
             <div class="menu_hamburger">
@@ -29,34 +30,34 @@
             </div>
             <input type="checkbox" id="nav_btn">
             <ul id="menu">
-                <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="index.php"><i class="fas fa-home"></i>Accueil</a></li>
                 <li class="menu-dropdown"><a href="#">Panneaux <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown">
                         <li>
-                            <a href="panneaux_dangers.html"><i class="fas fa-angle-double-right"></i> Type A</a>
+                            <a href="panneaux_dangers.php"><i class="fas fa-angle-double-right"></i> Type A</a>
                         </li>
                         <li>
-                            <a href="panneaux_priorite.html"><i class="fas fa-angle-double-right"></i> Type AB</a>
+                            <a href="panneaux_priorite.php"><i class="fas fa-angle-double-right"></i> Type AB</a>
                         </li>
                         <li class="second">
                             <a href=""><i class="fas fa-angle-double-right"></i> Type B <i class="fas fa-caret-down"></i></a>
                             <ul class="second_dropdown">
-                                <li><a href="panneaux_interdiction.html"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
-                                <li><a href="panneaux_obligation.html"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
-                                <li><a href="panneaux_finPrescription.html"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
+                                <li><a href="panneaux_interdiction.php"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
+                                <li><a href="panneaux_obligation.php"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
+                                <li><a href="panneaux_finPrescription.php"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="panneaux_indications.html"><i class="fas fa-angle-double-right"></i> Type C</a>
+                            <a href="panneaux_indications.php"><i class="fas fa-angle-double-right"></i> Type C</a>
                         </li>
                         <li>
-                            <a href="panneaux_services.html"><i class="fas fa-angle-double-right"></i> Type CE</a>
+                            <a href="panneaux_services.php"><i class="fas fa-angle-double-right"></i> Type CE</a>
                         </li>
                         <li>
-                            <a href="panneaux_direction.html"><i class="fas fa-angle-double-right"></i> Type D</a>
+                            <a href="panneaux_direction.php"><i class="fas fa-angle-double-right"></i> Type D</a>
                         </li>
                         <li>
-                            <a href="panneaux_jalonnement.html"><i class="fas fa-angle-double-right"></i> Type Dp</a>
+                            <a href="panneaux_jalonnement.php"><i class="fas fa-angle-double-right"></i> Type Dp</a>
                         </li>
                         <li>
                             <a href=""><i class="fas fa-angle-double-right"></i> Type Dv</a>
@@ -114,24 +115,24 @@
                             <a href="#"><i class="fas fa-angle-double-right"></i> Type de permis</a>
                         </li>
                         <li>
-                            <a href="page_permis1e.html"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
+                            <a href="page_permis1e.php"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
                         </li>
                         <li>
                             <a href="#"><i class="fas fa-angle-double-right"></i> Conduite Accompagnée</a>
                         </li>
                         <li>
-                            <a href="permis_a_points.html"><i class="fas fa-angle-double-right"></i> Permis à points</a>
+                            <a href="permis_a_points.php"><i class="fas fa-angle-double-right"></i> Permis à points</a>
                         </li>
                     </ul>
                 </li>
-                <li><a href="dangers.html">Dangers</a></li>
-                <li><a href="autoecole.html">Auto-école</a></li>
-                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="dangers.php">Dangers</a></li>
+                <li><a href="autoecole.php">Auto-école</a></li>
+                <li><a href="contacts.php">Contact</a></li>
             </ul>
 
         </nav>
         <div id="connexion">
-            <p><a href="connexion.html"><i class="fas fa-user"></i>Connexion</a></p>
+            <p><a href="connexion.php"><i class="fas fa-user"></i>Connexion</a></p>
         </div>
     </header>
 
@@ -280,10 +281,10 @@
             <h3>Autres informations</h3>
             <ul>
                 <li>
-                    <a href="sitemap.html">Site map</a>
+                    <a href="sitemap.php">Site map</a>
                 </li>
                 <li>
-                    <a href="confidentialite.html">Mentions légales</a>
+                    <a href="confidentialite.php">Mentions légales</a>
                 </li>
             </ul>
         </div>

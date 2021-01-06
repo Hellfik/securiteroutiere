@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -17,7 +18,7 @@
     <header>
         <div id="logo">
             <img src="img/securiteroutiere.png" alt="logo du site">
-            <h1><a href="connexion.html"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
+            <h1><a href="connexion.php"><i class="fas fa-user"></i></a>Préventiv'<span>Auto</span></h1>
         </div>
         <nav>
             <div class="menu_hamburger">
@@ -29,34 +30,34 @@
             </div>
             <input type="checkbox" id="nav_btn">
             <ul id="menu">
-                <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="index.php"><i class="fas fa-home"></i>Accueil</a></li>
                 <li class="menu-dropdown"><a href="">Panneaux <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown">
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i> Type A</a>
+                            <a href="panneaux_dangers.php"><i class="fas fa-angle-double-right"></i> Type A</a>
                         </li>
                         <li>
-                            <a href="panneaux_priorite.html"><i class="fas fa-angle-double-right"></i> Type AB</a>
+                            <a href="panneaux_priorite.php"><i class="fas fa-angle-double-right"></i> Type AB</a>
                         </li>
                         <li class="second">
                             <a href=""><i class="fas fa-angle-double-right"></i> Type B <i class="fas fa-caret-down"></i></a>
                             <ul class="second_dropdown">
-                                <li><a href="panneaux_interdiction.html"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
-                                <li><a href="panneaux_obligation.html"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
-                                <li><a href="panneaux_finPrescription.html"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
+                                <li><a href="panneaux_interdiction.php"><i class="fas fa-angle-double-right"></i> Panneaux d'interdiction</a></li>
+                                <li><a href="panneaux_obligation.php"><i class="fas fa-angle-double-right"></i> Panneaux d'obligation</a></li>
+                                <li><a href="panneaux_finPrescription.php"><i class="fas fa-angle-double-right"></i> Panneaux de fin de prescription</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="panneaux_indications.html"><i class="fas fa-angle-double-right"></i> Type C</a>
+                            <a href="panneaux_indications.php"><i class="fas fa-angle-double-right"></i> Type C</a>
                         </li>
                         <li>
-                            <a href="panneaux_services.html"><i class="fas fa-angle-double-right"></i> Type CE</a>
+                            <a href="#"><i class="fas fa-angle-double-right"></i> Type CE</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i> Type D</a>
+                            <a href="panneaux_direction.php"><i class="fas fa-angle-double-right"></i> Type D</a>
                         </li>
                         <li>
-                            <a href="panneaux_jalonnement.html"><i class="fas fa-angle-double-right"></i> Type Dp</a>
+                            <a href="panneaux_jalonnement.php"><i class="fas fa-angle-double-right"></i> Type Dp</a>
                         </li>
                         <li>
                             <a href=""><i class="fas fa-angle-double-right"></i> Type Dv</a>
@@ -111,27 +112,27 @@
                 <li class="menu-dropdown"><a href="">Permis <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown">
                         <li>
-                            <a href="page_type_de_permis.html"><i class="fas fa-angle-double-right"></i> Type de permis</a>
+                            <a href="page_type_de_permis.php"><i class="fas fa-angle-double-right"></i> Type de permis</a>
                         </li>
                         <li>
-                            <a href="page_permis1e.html"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
+                            <a href="page_permis1e.php"><i class="fas fa-angle-double-right"></i> Permis à 1€</a>
                         </li>
                         <li>
-                            <a href="page_conduiteAccompagne.html"><i class="fas fa-angle-double-right"></i> Conduite Accompagnée</a>
+                            <a href="page_conduiteAccompagne.php"><i class="fas fa-angle-double-right"></i> Conduite Accompagnée</a>
                         </li>
                         <li>
-                            <a href="permis_a_points.html"><i class="fas fa-angle-double-right"></i> Permis à points</a>
+                            <a href="permis_a_points.php"><i class="fas fa-angle-double-right"></i> Permis à points</a>
                         </li>
                     </ul>
                 </li>
-                <li><a href="dangers.html">Dangers</a></li>
-                <li><a href="autoecole.html">Auto-école</a></li>
-                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="dangers.php">Dangers</a></li>
+                <li><a href="autoecole.php">Auto-école</a></li>
+                <li><a href="contacts.php">Contact</a></li>
             </ul>
 
         </nav>
         <div id="connexion">
-            <p><a href="connexion.html"><i class="fas fa-user"></i>Connexion</a></p>
+            <p><a href="connexion.php"><i class="fas fa-user"></i>Connexion</a></p>
         </div>
     </header>
 
@@ -139,10 +140,10 @@
     <section id="bloc_accueil">
         <img src="img/panneaux-infos.jpg" alt="image de route">
         <div class="bloc_title">
-            <h2>PANNEAUX DE SIGNALISATION DE DIRECTION</h2>
+            <h2>PANNEAUX DE SERVICES</h2>
             <hr>
             <p>
-                EN FRANCE IL EXISTE 10 TYPES DE PANNEAUX DE SIGNALISATION DE DIRECTION
+                EN FRANCE IL EXISTE 47 PANNEAUX DE SERVICES
             </p>
 
         </div>
@@ -155,25 +156,21 @@
         <div class="container">
 
             <div class="panneaux_intro">
-                <h2>Les panneaux de signalisation de direction</h2>
+                <h2>Les panneaux de services</h2>
                 <hr>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ad repellat nostrum rerum ab quisquam rem ipsa sunt expedita ut explicabo, cupiditate, aspernatur culpa! A porro repellat repudiandae reiciendis perspiciatis! Lorem ipsum
                     dolor sit amet consectetur adipisicing elit. Doloremque commodi earum incidunt nostrum optio odio obcaecati dolorum reprehenderit iste cumque minima, natus perspiciatis porro. Nulla autem sapiente iusto quia est.</p>
 
             </div>
-
-            <div class="panneaux_intro">
-                <h2>Panneaux de position de type D20</h2>
-            </div>
             <div class="panneaux_container">
                 <div class="groupement_panneaux">
                     <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/E1.svg" alt="panneau a1"></div>
+                        <div class="panneaux__img"><img src="img/CE1.svg" alt="panneau a1"></div>
                         <hr>
                         <div class="panneau__description">
-                            <h4>E1</h4>
+                            <h4>CE1</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ullam aspernatur? Unde, nobis? Culpa ea, impedit unde maiores doloremque veritatis dolores adipisci, perspiciatis nostrum, sint tempora quos. Dolorum, reprehenderit
-                                alias? <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France" style="color:blue;"> >> Lire La suite</a>
+                                alias? <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a>
                             </p>
                         </div>
                     </div>
@@ -181,22 +178,22 @@
 
                 <div class="groupement_panneaux">
                     <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/E2.svg" alt="panneau a1"></div>
+                        <div class="panneaux__img"><img src="img/CE2a.svg" alt="panneau a1"></div>
                         <hr>
                         <div class="panneau__description">
-                            <h4>E2</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officiis voluptatem dolore earum, nesciunt qui ad dicta repellendus deserunt? Iste quos mollitia quidem ex amet. Officia corrupti reiciendis nihil consequuntur! <br>                                <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France" style="color:blue;"> >> Lire La suite</a></p>
+                            <h4>CE2a</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officiis voluptatem dolore earum, nesciunt qui ad dicta repellendus deserunt? Iste quos mollitia quidem ex amet. Officia corrupti reiciendis nihil consequuntur! <br>                                <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="groupement_panneaux">
                     <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/E3.svg" alt="panneau a1"></div>
+                        <div class="panneaux__img"><img src="img/CE2b.svg" alt="panneau a1"></div>
                         <hr>
                         <div class="panneau__description">
-                            <h4>E3</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime numquam non possimus ducimus eaque nisi deserunt quis, eligendi officiis iure placeat, iste, quasi natus in! Pariatur sint ipsa harum ex. <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France"
+                            <h4>CE2b</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime numquam non possimus ducimus eaque nisi deserunt quis, eligendi officiis iure placeat, iste, quasi natus in! Pariatur sint ipsa harum ex. <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France"
                                     style="color:blue;"> >> Lire La suite</a></p>
                         </div>
                     </div>
@@ -204,84 +201,71 @@
 
                 <div class="groupement_panneaux">
                     <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/E4.svg" alt="panneau a1"></div>
+                        <div class="panneaux__img"><img src="img/CE3a.svg" alt="panneau a1"></div>
                         <hr>
                         <div class="panneau__description">
-                            <h4>E4</h4>
+                            <h4>CE3a</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum veniam doloremque eaque quos explicabo neque facilis, vel recusandae accusantium rem laborum culpa aut, officiis velit id expedita iure perspiciatis sunt.
-                                <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France" style="color:blue;"> >> Lire La suite</a></p>
+                                <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="groupement_panneaux">
                     <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/E5.jpg" alt="panneau a1"></div>
+                        <div class="panneaux__img"><img src="img/CE4a.svg" alt="panneau a1"></div>
                         <hr>
                         <div class="panneau__description">
-                            <h4>E5</h4>
+                            <h4>CE4a</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus possimus cupiditate, alias vitae aperiam, facilis voluptatibus atque culpa repellat cum omnis dolorum quo consectetur deleniti dolor natus esse blanditiis et.
-                                <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France" style="color:blue;"> >> Lire La suite</a></p>
+                                <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a></p>
                         </div>
                     </div>
                 </div>
-
+                <div class="groupement_panneaux">
+                    <div class="panneaux__content">
+                        <div class="panneaux__img"><img src="img/CE4b.svg" alt="panneau a1"></div>
+                        <hr>
+                        <div class="panneau__description">
+                            <h4>CE4b</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui facere expedita quidem repudiandae aperiam necessitatibus quae natus quaerat atque, nisi reprehenderit assumenda totam deleniti ea iusto impedit rerum ullam.
+                                <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="groupement_panneaux">
+                    <div class="panneaux__content">
+                        <div class="panneaux__img"><img src="img/CE4c.svg" alt="panneau a1"></div>
+                        <hr>
+                        <div class="panneau__description">
+                            <h4>CE4c</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ipsam repellendus commodi debitis unde saepe voluptatum, blanditiis accusamus eum minus corporis animi voluptatibus culpa dolorem reprehenderit, exercitationem
+                                libero quis voluptas! <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="groupement_panneaux">
+                    <div class="panneaux__content">
+                        <div class="panneaux__img"><img src="img/CE5a.svg" alt="panneau a1"></div>
+                        <hr>
+                        <div class="panneau__description">
+                            <h4>CE5a</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nostrum quas necessitatibus modi impedit exercitationem nulla doloremque molestias corrupti dolorum, saepe tempora, sit minus repudiandae laborum? Consequatur
+                                natus perferendis fugiat! <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="groupement_panneaux">
+                    <div class="panneaux__content">
+                        <div class="panneaux__img"><img src="img/CE5b.svg" alt="panneau a1"></div>
+                        <hr>
+                        <div class="panneau__description">
+                            <h4>CE5b</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae enim illum fugiat consequuntur eveniet iusto aliquam temporibus recusandae. Veniam corrupti tempora sint assumenda amet at facilis iure fugiat quos cumque! <br>                                <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_routi%C3%A8re_d%27indication_en_France" style="color:blue;"> >> Lire La suite</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="panneaux_intro">
-                <h2>Panneaux de signalisation avancée de type D30</h2>
-            </div>
-
-            <div class="panneaux_container">
-                <div class="groupement_panneaux">
-                    <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/f1.svg" alt="panneau a1"></div>
-                        <hr>
-                        <div class="panneau__description">
-                            <h4>Sortie non numérotée vers le haut</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ullam aspernatur? Unde, nobis? Culpa ea, impedit unde maiores doloremque veritatis dolores adipisci, perspiciatis nostrum, sint tempora quos. Dolorum, reprehenderit
-                                alias? <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France" style="color:blue;"> >> Lire La suite</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="groupement_panneaux">
-                    <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/f2.jpg" alt="panneau a1"></div>
-                        <hr>
-                        <div class="panneau__description">
-                            <h4>Sortie numérotée vers le haut</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officiis voluptatem dolore earum, nesciunt qui ad dicta repellendus deserunt? Iste quos mollitia quidem ex amet. Officia corrupti reiciendis nihil consequuntur! <br>                                <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France" style="color:blue;"> >> Lire La suite</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="groupement_panneaux">
-                    <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/f3.jpg" alt="panneau a1"></div>
-                        <hr>
-                        <div class="panneau__description">
-                            <h4>Sortie numérotée vers le bas</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime numquam non possimus ducimus eaque nisi deserunt quis, eligendi officiis iure placeat, iste, quasi natus in! Pariatur sint ipsa harum ex. <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France"
-                                    style="color:blue;"> >> Lire La suite</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="groupement_panneaux">
-                    <div class="panneaux__content">
-                        <div class="panneaux__img"><img src="img/f4.jpeg" alt="panneau a1"></div>
-                        <hr>
-                        <div class="panneau__description">
-                            <h4>Sortie non numérotée vers le bas</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum veniam doloremque eaque quos explicabo neque facilis, vel recusandae accusantium rem laborum culpa aut, officiis velit id expedita iure perspiciatis sunt.
-                                <br> <a href="https://fr.wikipedia.org/wiki/Panneau_de_signalisation_directionnelle_de_position_en_France" style="color:blue;"> >> Lire La suite</a></p>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
+        </div>
 
 
     </section>
@@ -318,10 +302,10 @@
             <h3>Autres informations</h3>
             <ul>
                 <li>
-                    <a href="sitemap.html">Site map</a>
+                    <a href="sitemap.php">Site map</a>
                 </li>
                 <li>
-                    <a href="confidentialite.html">Mentions légales</a>
+                    <a href="confidentialite.php">Mentions légales</a>
                 </li>
             </ul>
         </div>
